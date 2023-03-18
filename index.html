@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width-device-width, initial-scale-1.0">
+    <title>Styling With CSS</title>
+    <!--<link rel="stylesheet" href="style.css">-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <style>
+        /*The body background colour for the entire page*/
+body {
+    background-image:url(s7.png);
+    background-color: white;
+    background-repeat: no-repeat;
+    background-size: cover;  
+    font-family: 'Roboto', sans-serif;
+}
+
+/*This takes care of all h1 and h1 class colour and text format*/
+h1 {
+    color: white;
+    text-align: center;
+}
+
+.h1 {
+    background-color: black;
+    margin: 2%;
+}
+
+/* Container class styling */
+.container {
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 1%;
+    background-color:ghostwhite;
+    background: transparent;
+    font-weight: bolder;
+}
+
+.container legend{
+    background: transparent;
+    font-weight: bolder;
+}
+
+/*This takes care of all paragraph format*/
+p {
+    font-family: 'Roboto', sans-serif;
+}
+
+/*This takes care of all line spacing which affects the entire page format*/
+div {
+    line-height: 1.5;
+}
+
+/*This takes care of all headder which affects the entire page format*/
+.headder {
+    text-align: center;
+    text-emphasis-color: black;
+    font-size:xx-large;
+    font-weight: bold;
+    background-color: rgb(166, 164, 168);
+    margin: 2%;
+}
+
+/*This takes care of all fform which affects the entire page format*/
+.fform {
+    color: rgb(4, 15, 26);
+    font-size: large;
+}
+
+/*This target the legend part of the entire page format*/
+body form fieldset legend{
+    margin: 0%;
+    font-weight: bolder;
+    font-size:xx-large;
+}
+
+/*This target the label part of the entire page format*/
+body form fieldset label{
+    margin: 0%;
+    font-weight: bolder;
+    font-size:x-large;
+}
+
+/*This target the input part of the entire page format*/
+input[type="reset"] {
+    font-weight: bold;
+    background-color:grey;
+    border-radius: 100px;
+    margin-left: 2%;
+    font-size: 20px;
+}
+
+/*This target the button part of the entire page format*/
+button {
+    font-weight: bold;
+    background-color:grey;
+    border-radius: 100px;
+    margin-right: 2%;
+    font-size: 20px;
+}
+
+/*This target the input type of the radio part of the entire page format*/
+input[type="radio"]{
+    background-color: white;
+    width: 1.5em;
+    height: 1.5em;
+    border: 1.15em solid black;
+    border-radius: 50%;
+    transform: translate(-0.075em);
+}
+
+
+
+
+@media (min-width: 900px) {
+    body {
+        background-color: white;
+    }
+
+    h1 {
+        color: white;
+        text-align: center;
+    }
+
+    .headder {
+        text-align: center;
+        text-emphasis-color: black;
+        font-size:xx-large;
+        font-weight: bold;
+        background-color: rgb(166, 164, 168);
+        margin: 2%;
+    }
+
+    .fform {
+        color: rgb(4, 15, 26);
+        font-size: large;
+    }
+
+    body form fieldset legend{
+        margin: 0%;
+        font-weight: bolder;
+        font-size:xx-large;
+    }
+
+    body form fieldset label{
+        margin: 0%;
+        font-weight: bolder;
+        font-size:x-large;
+    }
+
+    input[type="radio"]{
+        background-color: white;
+        width: 1.5em;
+        height: 1.5em;
+        border: 1.15em solid black;
+        border-radius: 50%;
+        transform: translate(-0.075em);
+    }
+    
+}
+
+@media (max-width: 500px) {
+    body {
+        background-color: white;
+    }
+
+    h1 {
+        color: white;
+        text-align: center;
+    }
+
+    .headder {
+        text-align: center;
+        text-emphasis-color: black;
+        font-size:xx-large;
+        font-weight: bold;
+        background-color: rgb(166, 164, 168);
+        margin: 2%;
+    }
+    
+    .fform {
+        color: rgb(4, 15, 26);
+        font-size: large;
+    }
+
+    body form fieldset legend{
+        margin: 0%;
+        font-weight: bolder;
+        font-size:xx-large;
+    }
+
+    body form fieldset label{
+        margin: 0%;
+        font-weight: bolder;
+        font-size:x-large;
+    }
+
+    input[type="radio"]{
+        background-color: white;
+        width: 1.5em;
+        height: 1.5em;
+        border: 1.15em solid black;
+        border-radius: 50%;
+        transform: translate(-0.075em);
+    }
+}
+
+@media (orientation: landscape) {
+    body {
+        background-color: white;
+    }
+
+    h1 {
+        color: white;
+        text-align: center;
+    }
+
+    .headder {
+        text-align: center;
+        text-emphasis-color: black;
+        font-size:xx-large;
+        font-weight: bold;
+        background-color: rgb(166, 164, 168);
+        margin: 2%;
+    }
+    
+    .fform {
+        color: rgb(4, 15, 26);
+        font-size: large;
+    }
+
+    body form fieldset legend{
+        margin: 0%;
+        font-weight: bolder;
+        font-size:xx-large;
+    }
+
+    body form fieldset label{
+        margin: 0%;
+        font-weight: bolder;
+        font-size:x-large;
+    }
+
+    input[type="radio"]{
+        background-color: white;
+        width: 1.5em;
+        height: 1.5em;
+        border: 1.15em solid black;
+        border-radius: 50%;
+        transform: translate(-0.075em);
+    }
+}
+    </style>
+</head>
+
+<body>
+    <div class="headder">
+        <header> Biodata Capture</header>
+    </div>
+
+    <div class="h1">
+        <h1>Enter Your information below</h1>
+    </div>
+    <div class="fform">
+        <div class="container">
+            <form method="*">
+                <fieldset>
+                    <legend>Biodata Form</legend>
+                    <label for="fullname">Fullname *</label>
+                    <input type="text" name="fullname" id="fullname" required><br><br>
+                    <label for="email">Email *</label>
+                    <input type="email" name="email" id="email" required><br><br>
+                    <label for="male">Male</label>
+                    <input type="radio" name="sex" id="male" value="Male" required>
+                    <label for="female ">Female</label>
+                    <input type="radio" name="sex" id="female" value="Female" required><br><br>
+                    <label for="pass">Password</label>
+                    <input type="pass" name="pass" id="pass" required>
+                    <button>Submit
+                        <script>alert("Form submitted successfully")</script>
+                    </button>
+                    <input type="reset">
+                </fieldset>
+            </form>
+        </div>
+    </div>
+
+</body>
+
+</html>
